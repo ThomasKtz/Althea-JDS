@@ -1,6 +1,7 @@
 <?php include 'header.php';
 include 'components/itemModification.php';
 include 'components/getBoardgameInfos.php';
+include 'box.php';
 ?>
 <!-- On verifie sur l'user connecté est celui qui à posté l'annonce -->
 <?php if ($boardgameInfos['boardgameSeller'] !== $_SESSION['user']['pseudo']) {
